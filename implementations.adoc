@@ -1,0 +1,71 @@
+== Implementations
+
+=== Documentation
+
+[#table_documentation,reftext='{table-caption} {counter:table-num}']
+.Documentation
+[cols=",,",width="75%",options="header",align="center"]
+|===
+|Implementation | Type | Contact
+
+| TBA
+| TBA
+| TBA
+
+| TBA
+| TBA
+| TBA
+|===
+
+=== Server-side implementations
+
+[#table_implementation,reftext='{table-caption} {counter:table-num}']
+.Service implementations
+[cols=",,",width="75%",options="header",align="center"]
+|===
+|Implementation | Type | Contact
+
+| https://maps.ecere.com/ogcapi[GNOSIS Map Server]
+| OGC API - Features/Coverages/Maps/Tiles/Styles/Processes (Workflows)
+| https://github.com/jerstlouis[Jerome St-Louis]
+
+| TBA
+| TBA
+| TBA
+
+| TBA
+| TBA
+| TBA
+|===
+
+
+=== Client-side implementations
+
+[#table_implementation,reftext='{table-caption} {counter:table-num}']
+.Client implementations
+[cols=",,",width="75%",options="header",align="center"]
+|===
+|Implementation | Type | Contact
+
+| TBA
+| TBA
+| TBA
+
+| TBA
+| TBA
+| TBA
+|===
+
+=== Executable Test Suite
+
+[#table_documentation,reftext='{table-caption} {counter:table-num}']
+.Documentation
+[cols=",,",width="75%",options="header",align="center"]
+|===
+|Implementation | Type | Contact
+
+| TBA
+| TBA
+| TBA
+
+|===

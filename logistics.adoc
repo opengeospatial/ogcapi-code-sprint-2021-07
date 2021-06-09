@@ -1,0 +1,13 @@
+== Sprint Logistics
+
+*Gotomeeting*
+
+** Meeting Room 1 (GTM1) - Register to get the details
+
+*GitHub*
+
+* Public repo https://github.com/opengeospatial/ogcapi-code-sprint-2021-07
+
+*Gitter*
+
+* https://gitter.im/ogc-developer/Sprints
