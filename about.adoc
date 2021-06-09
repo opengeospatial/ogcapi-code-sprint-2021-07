@@ -1,0 +1,15 @@
+== About the July 2021 OGC API Virtual Code Sprint
+
+OGC has been developing a new generation of standards for building web Application Programming Interface (API) solutions that make location-referenced information more Findable, Accessible, Interoperable, and Reusable (FAIR). These draft specifications come from OGC’s effort to create modular, resource-oriented API standards that use OpenAPI for describing interfaces that offer location-referenced information over the web.
+
+To ensure that all of the new OGC Application Programming Interface (API) standards are as developer-friendly, usable, and mature as possible before release, each draft specification is being put through one or more code sprints to test and improve their ‘readiness’ before starting the OGC standards approval process.
+
+A Code Sprint is a collaborative and inclusive event driven by innovative and rapid programming with minimal process and organization constraints to support the development of new applications and candidate standards.
+
+The Open Geospatial Consortium (OGC) invites software developers to the July 2021 OGC API Virtual Code Sprint, to be held from July 21st to July 23rd , 2021. The code sprint will begin at 07:00am EDT on the first day, and end at 05:30pm EDT on the last day. The code sprint will focus on the following draft OGC API specifications:
+
+* OGC API – Processes
+* OGC API – Records
+* OGC API – Coverages
+
+A pre-event webinar, lasting up to one hour, will take place on July 14th at 09:00am EDT. The webinar will set out the scope of the code sprint and provide an overview of the candidate standards.

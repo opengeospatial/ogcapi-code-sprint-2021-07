@@ -1,0 +1,45 @@
+== Tentative Schedule / Agenda
+
+All times on the agenda are in EDT (New York time).
+
+&#10036; means that the session will be in the main Gotomeeting virtual room.
+
+[cols="3,7,7a",options="header",]
+|===
+|*Time* (EDT) |*What* |*Lead*
+3+|*Webinar & Workshop (GotoMeeting) 14th July 2021 at 09:00* - https://www.timeanddate.com/worldclock/meetingtime.html?day=14&month=7&year=2021&p1=224&p2=179&p3=16&p4=44&p5=240&p6=136&iv=0[See World Clock]
+|5 minutes | Welcome Remarks | Joana Simoes (OGC),Gobe Hobona (OGC)
+|10 minutes | Overview of OGC API - Processes | TBA
+|10 minutes | Overview of OGC API - Records | TBA
+|10 minutes | Overview of OGC API - Coverages | TBA
+|25 minutes | Questions & Answers|
+3+|*21st July 2021* - https://www.timeanddate.com/worldclock/meetingtime.html?day=21&month=7&year=2021&p1=224&p2=179&p3=16&p4=44&p5=240&p6=136&iv=0[See World Clock]
+|07:00-07:10 |Welcome & objectives &#10036; | Gobe Hobona (OGC), Joana Simoes (OGC)
+|07:10-07:20 |Sprint goals for OGC API - Processes &#10036;| TBA
+|07:20-07:30 |Sprint goals for OGC API - Records &#10036;| TBA
+|07:30-07:40 |Sprint goals for OGC API - Coverages &#10036;| TBA
+|07:40-08:00 |Questions and Answers &#10036;|
+|08:00-13:00 |Practical work|
+|13:00-13:30 |Break |
+|13:30-16:30 |Practical work|
+|16:30-17:30 |Daily brief back &#10036;|
+3+|*22nd July 2021* - https://www.timeanddate.com/worldclock/meetingtime.html?day=22&month=7&year=2021&p1=224&p2=179&p3=16&p4=44&p5=240&p6=136&iv=0[See World Clock]
+|07:00-09:00 |Practical work|
+|09:00-10:00 |a short stand-up and preliminary demonstration &#10036; |
+|10:00-12:30 |Practical work|
+|12:30-13:00 |Issues / concerns &#10036;|
+|13:00-13:30 |Break |
+|13:30-16:30 |Practical work|
+|16:30-17:30 |Daily brief back &#10036;|
+3+|*23rd July 2021* - https://www.timeanddate.com/worldclock/meetingtime.html?day=23&month=7&year=2021&p1=224&p2=179&p3=16&p4=44&p5=240&p6=136&iv=0[See World Clock]
+|07:00-09:00 |Practical work|
+|09:00-10:00 |a short stand-up and preliminary demonstration &#10036; |
+|10:00-12:30 |Practical work|
+|12:30-13:00 |Issues / concerns &#10036;|
+|13:00-13:30 |Break |
+|13:30-15:30 |Practical work|
+|15:30-16:30
+a|Demonstration &#10036;
+|
+|16:30-17:30 |Wrap-up: immediate lessons, next steps, thanks and goodbyes &#10036; | OGC staff
+|===

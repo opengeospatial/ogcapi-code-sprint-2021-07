@@ -1,0 +1,9 @@
+== Frequently Asked Questions (FAQs)
+
+*Q: Will it be a complete development project or we have to solve a problem?*
+
+A: Development and testing of the draft OGC API specifications.
+
+*Q: What examples exist of servers that have already implemented the draft specifications?*
+
+A: Examples of implementations are listed at https://github.com/opengeospatial/ogcapi-code-sprint-2021-07/blob/main/implementations.adoc

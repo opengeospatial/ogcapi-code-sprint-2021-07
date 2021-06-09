@@ -1,0 +1,58 @@
+== Additional Resources
+
+=== EU ESA Copernicus Open Access Hub
+
+Some coverage data can be downloaded from the Copernicus Open Access Hub https://scihub.copernicus.eu/dhus/#/home
+
+=== NASA Open Data
+
+Some coverage data can be downloaded from the NASA Open Data service https://open.nasa.gov/open-data/
+
+=== Ordnance Survey (OS) Open Zoomstack
+
+A comprehensive basemap of the United Kingdom showing coverage from national level right down to street detail.
+
+https://os.uk/business-government/products/open-zoomstack
+
+Stylesheets (including OGC SLD, Esri LYR, QGIS QML and Mapbox GL Styles) https://github.com/OrdnanceSurvey/OS-Open-Zoomstack-Stylesheets
+
+=== OS Boundary-Line and OS Open GreenSpace
+
+Vector tiles of Boundary-Line, OS Open GreenSpace, Rivers and Roads are all available to download for free from the https://osdatahub.os.uk[Ordnance Survey Data Hub].
+
+Any sprint participants are free to sign up to the Data Hub to use any of Ordnance Survey's APIs as well.
+
+
+=== Natural Resources Canada (NRCan) High-Resolution Digital Elevation Model (HRDEM) from NRCan's Open Maps
+
+Open Maps provides access to the Government of Canada’s geospatial information.
+
+https://open.canada.ca/en/open-maps
+
+HRDEM https://open.canada.ca/data/en/dataset/957782bf-847c-4644-a757-e383c0057995
+
+=== Meteorological Service of Canada (MSC) Open data
+
+The available open data from the Meteorological Service of Canada provides up-to-date
+information on past, present and future weather, water, climate and environmental
+conditions over Canada and the world
+
+https://eccc-msc.github.io/open-data
+
+=== JAXA Data Distribution service
+
+Some coverage data can be downloaded from the JAXA Data Distribution service https://www.eorc.jaxa.jp/en/distribution/
+
+=== Meteorological Service of Canada Open Data
+
+Provides up-to-date information on past, present and future weather, water, climate and environmental conditions over Canada and the world. https://eccc-msc.github.io/open-data/
+
+=== Other OGC sprints and hackathons
+
+A list of *previous and future OGC sprints and hackathons* is available at https://www.ogc.org/projects/initiatives/ogcsprints
+
+=== Other OGC API resources
+
+OGC API website, https://ogcapi.ogc.org
+
+Blog posts about previous sprints, https://ogcapi.ogc.org/#blogs
