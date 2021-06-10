@@ -31,7 +31,6 @@ Register at **TBA**
 * [Sprint Logistics](./logistics.adoc)
 * [Schedule/Agenda](./agenda.adoc)
 * [Implementations](./implementations.adoc)
-* [Datasets](./datasets.adoc)
 * [What is everybody going to be working on?](https://github.com/opengeospatial/ogcapi-code-sprint-2021-07/issues/1)
 * [Lessons and Next Steps](./lessonsAndNextSteps.adoc)
 * [Additional Resources](./additionalResources.adoc)
