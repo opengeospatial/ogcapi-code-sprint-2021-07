@@ -1,4 +1,4 @@
-# July 2021 OGC API Virtual Code Sprint
+# July 2021 OGC API Virtual Code Sprint -
 
 [<img src="http://www.opengeospatial.org/pub/www/files/OGC_Logo_2D_Blue_x_0_0.png" width="200"/>](https://www.opengeospatial.org)
 
