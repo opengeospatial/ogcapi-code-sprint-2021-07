@@ -29,9 +29,17 @@
 | OGC API - Features/Coverages/Maps/Tiles/Styles/Processes (Workflows)
 | https://github.com/jerstlouis[Jerome St-Louis]
 
-| TBA
-| TBA
-| TBA
+| https://pgeoapi.io[pygeoapi]
+| OGC API - Features/Coverages/Maps/Tiles/Styles/Processes/Records
+| https://github.com/tomkralidis[Tom Kralidis]
+
+| https://geoserver.org[GeoServer]
+| OGC API - DGGS, FEATURES, IMAGES, MAPS, STYLES, TILES
+| https://github.com/jodygarnett[Jody Garnett]
+
+| https://geonetwork-opensource.org[GeoNetwork]
+| OGC API - Records
+| https://github.com/pvgenuchten[Paul van Genuchten]
 
 | TBA
 | TBA
@@ -47,9 +55,9 @@
 |===
 |Implementation | Type | Contact
 
-| TBA
-| TBA
-| TBA
+| https://docs.qgis.org/testing/en/docs/user_manual/plugins/core_plugins/plugins_metasearch.html?highlight=metasearch[QGIS Metasearch]  
+| OGC API - Records
+| https://github.com/tomkralidis[Tom Kralidis]
 
 | TBA
 | TBA
