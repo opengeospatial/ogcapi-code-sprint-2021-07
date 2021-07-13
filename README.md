@@ -23,7 +23,7 @@ The July 2021 OGC API Virtual Code Sprint will focus on the following draft OGC 
 * The draft [OGC API - Coverages](https://ogcapi.ogc.org/coverages) specification defines an interface that enables access to coverages that are modeled according to the Coverage Implementation Schema (CIS) 1.1. Coverages are represented by some binary or ASCII serialization, specified by some data (en­coding) format. Arguably the most popular type of coverage is that of a gridded coverage. Gridded coverages have a grid as their domain set describing the direct positions in multi-dimensional coordinate space, depending on the type of grid. Satellite imagery is typically modeled as a gridded coverage, for example.
 
 
-Register at **TBA**
+Register at https://portal.ogc.org/public_ogc/register/210721api_codesprint.php
 
 
 * [Sprint Description](./about.adoc)
