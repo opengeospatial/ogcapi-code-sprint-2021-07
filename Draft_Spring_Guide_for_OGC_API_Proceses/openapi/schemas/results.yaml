@@ -1,0 +1,3 @@
+additionalProperties:
+  oneOf:
+    - $ref: "openapi/schemas/inlineOrRefData.yaml"
