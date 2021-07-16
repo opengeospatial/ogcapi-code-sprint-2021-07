@@ -1,6 +1,6 @@
 description: Result of synchronous execution
 content:
-  /*:
+  '*/*':
     schema:
       oneOf:
         - type: string
@@ -8,7 +8,6 @@ content:
         - type: integer
         - type: object
           nullable: true
-        - type: array
         - type: boolean
         - type: string
           format: binary

@@ -67,42 +67,41 @@ oneOf:
           - string
       not:
         oneOf:
-          - $ref: "schema.yaml"
-          - $ref: "reference.yaml"
+          - $ref: "openapi/schemas/schema.yaml"
+          - $ref: "openapi/schemas/reference.yaml"
       allOf:
         type: array
         items:
           oneOf:
-            - $ref: "schema.yaml"
-            - $ref: "reference.yaml"
+            - $ref: "openapi/schemas/schema.yaml"
+            - $ref: "openapi/schemas/reference.yaml"
       oneOf:
         type: array
         items:
           oneOf:
-            - $ref: "schema.yaml"
-            - $ref: "reference.yaml"
+            - $ref: "openapi/schemas/schema.yaml"
+            - $ref: "openapi/schemas/reference.yaml"
       anyOf:
         type: array
         items:
           oneOf:
-            - $ref: "schema.yaml"
-            - $ref: "reference.yaml"
+            - $ref: "openapi/schemas/schema.yaml"
+            - $ref: "openapi/schemas/reference.yaml"
       items:
         oneOf:
-          - $ref: "schema.yaml"
-          - $ref: "reference.yaml"
+          - $ref: "openapi/schemas/schema.yaml"
+          - $ref: "openapi/schemas/reference.yaml"
       properties:
         type: object
         additionalProperties:
           oneOf:
-            - $ref: "schema.yaml"
-            - $ref: "reference.yaml"
+            - $ref: "openapi/schemas/schema.yaml"
+            - $ref: "openapi/schemas/reference.yaml"
       additionalProperties:
         oneOf:
-          - $ref: "schema.yaml"
-          - $ref: "reference.yaml"
+          - $ref: "openapi/schemas/schema.yaml"
+          - $ref: "openapi/schemas/reference.yaml"
           - type: boolean
-        default: true
       description:
         type: string
       format:
