@@ -3,6 +3,6 @@ oneOf:
   - type: number
   - type: integer
   - type: boolean
-  - type: array
-  - $ref: "binaryInputValue.yaml"
-  - $ref: "bbox.yaml"
+  #- type: array
+  #- $ref: "binaryInputValue.yaml"
+  #- $ref: "bbox.yaml"
