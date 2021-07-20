@@ -197,8 +197,8 @@ paths:
       parameters:
         - $ref: "https://raw.githubusercontent.com/opengeospatial/ogcapi-code-sprint-2021-07/main/Draft_Spring_Guide_for_OGC_API_Proceses/openapi/parameters/jobId.yaml"
       responses:
-        #200:
-        #  $ref: "https://raw.githubusercontent.com/opengeospatial/ogcapi-code-sprint-2021-07/main/Draft_Spring_Guide_for_OGC_API_Proceses/openapi/responses/Results.yaml"
+        200:
+          $ref: "https://raw.githubusercontent.com/opengeospatial/ogcapi-code-sprint-2021-07/main/Draft_Spring_Guide_for_OGC_API_Proceses/openapi/responses/Results.yaml"
         404:
           $ref: "https://raw.githubusercontent.com/opengeospatial/ogcapi-code-sprint-2021-07/main/Draft_Spring_Guide_for_OGC_API_Proceses/openapi/responses/NotFound.yaml"
         500:
