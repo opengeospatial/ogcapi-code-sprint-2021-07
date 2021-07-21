@@ -170,7 +170,7 @@ https://github.com/OpenAPITools/openapi-generator/issues/5381) the
 compilation fails to handle elements defined as ‘oneOf’ options. So, you
 will see a compilation such as shown below.
 
-image::images/image2.png[width=1300,height=475]
+image::images/image2.png[width=1300,height=400]
 
 As a workaround, create the following contructor-only classes (no methods are necessary) in the
 org.ogc.model package:
@@ -195,7 +195,7 @@ Now re-compile the OpenAPI definition by running the command:
 
 If successful, you should arrive at a `BUILD SUCCESS` message.
 
-image::images/image4.png[width=1300,height=475]
+image::images/image4.png[width=1300,height=400]
 
 [[step5]]
 == Step 5 - Creating the Controller
