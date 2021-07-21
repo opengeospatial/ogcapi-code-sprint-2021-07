@@ -20,25 +20,25 @@ All times on the agenda are in EDT (New York time).
 |07:40-07:55 |Sprint goals for OGC API - Records &#10036;| Panagiotis 'Peter' Vretanos (CubeWerx)
 |07:55-08:10 |Sprint goals for OGC API - Coverages &#10036;| Stephan Meißl (EOX) and Jérôme Jacovella-St-Louis (Ecere Corporation)
 |08:10-08:20 |Questions and Answers &#10036;|
-|08:20-13:00 |Practical work|
+|08:20-13:00 |Practical work (https://github.com/opengeospatial/ogcapi-code-sprint-2021-07/blob/main/logistics.adoc[See Breakout Rooms])|
 |13:00-13:30 |Break |
-|13:30-16:30 |Practical work|
+|13:30-16:30 |Practical work (https://github.com/opengeospatial/ogcapi-code-sprint-2021-07/blob/main/logistics.adoc[See Breakout Rooms])|
 |16:30-17:30 |Daily brief back &#10036;|
 3+|*22nd July 2021* - https://www.timeanddate.com/worldclock/meetingtime.html?day=22&month=7&year=2021&p1=224&p2=179&p3=16&p4=44&p5=240&p6=136&iv=0[See World Clock]
 |07:00-09:00 |Practical work|
 |09:00-10:00 |a short stand-up and preliminary demonstration &#10036; |
-|10:00-12:30 |Practical work|
+|10:00-12:30 |Practical work (https://github.com/opengeospatial/ogcapi-code-sprint-2021-07/blob/main/logistics.adoc[See Breakout Rooms])|
 |12:30-13:00 |Issues / concerns &#10036;|
 |13:00-13:30 |Break |
-|13:30-16:30 |Practical work|
+|13:30-16:30 |Practical work (https://github.com/opengeospatial/ogcapi-code-sprint-2021-07/blob/main/logistics.adoc[See Breakout Rooms])|
 |16:30-17:30 |Daily brief back &#10036;|
 3+|*23rd July 2021* - https://www.timeanddate.com/worldclock/meetingtime.html?day=23&month=7&year=2021&p1=224&p2=179&p3=16&p4=44&p5=240&p6=136&iv=0[See World Clock]
-|07:00-09:00 |Practical work|
+|07:00-09:00 |Practical work (https://github.com/opengeospatial/ogcapi-code-sprint-2021-07/blob/main/logistics.adoc[See Breakout Rooms])|
 |09:00-10:00 |a short stand-up and preliminary demonstration &#10036; |
-|10:00-12:30 |Practical work|
+|10:00-12:30 |Practical work (https://github.com/opengeospatial/ogcapi-code-sprint-2021-07/blob/main/logistics.adoc[See Breakout Rooms])|
 |12:30-13:00 |Issues / concerns &#10036;|
 |13:00-13:30 |Break |
-|13:30-15:30 |Practical work|
+|13:30-15:30 |Practical work (https://github.com/opengeospatial/ogcapi-code-sprint-2021-07/blob/main/logistics.adoc[See Breakout Rooms])|
 |15:30-16:30
 a|Demonstration &#10036;
 |

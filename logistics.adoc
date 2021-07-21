@@ -4,6 +4,12 @@
 
 ** Meeting Room 1 (GTM1) - Register to get the details
 
+*Breakout rooms for Practical Work*
+
+** OGC API - Processes, https://meet.jit.si/OGCAPI-Processes-July2021
+** OGC API - Records, https://meet.jit.si/OGCAPI-Records-July2021
+** OGC API - Coverages, https://meet.jit.si/OGCAPI-Coverages-July2021
+
 *GitHub*
 
 * Public repo https://github.com/opengeospatial/ogcapi-code-sprint-2021-07
