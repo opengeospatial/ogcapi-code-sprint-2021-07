@@ -2,13 +2,19 @@
 
 *Gotomeeting*
 
-** Meeting Room 1 (GTM1) - Register to get the details
+** Main Gotomeeting virtual room - https://global.gotomeeting.com/join/430538245
 
 *Breakout rooms for Practical Work*
 
 ** OGC API - Processes, https://meet.jit.si/OGCAPI-Processes-July2021
 ** OGC API - Records, https://meet.jit.si/OGCAPI-Records-July2021
 ** OGC API - Coverages, https://meet.jit.si/OGCAPI-Coverages-July2021
+
+The *schedules* of the Breakout rooms are at:
+
+** OGC API - Processes, https://github.com/opengeospatial/ogcapi-code-sprint-2021-07/blob/main/processes-api-schedule.adoc
+** OGC API - Records, https://github.com/opengeospatial/ogcapi-code-sprint-2021-07/blob/main/records-api-schedule.adoc
+** OGC API - Coverages, https://github.com/opengeospatial/ogcapi-code-sprint-2021-07/blob/main/coverages-api-schedule.adoc
 
 *GitHub*
 
