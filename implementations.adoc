@@ -45,6 +45,10 @@
 | OGC API - Records
 | https://github.com/tomkralidis[Tom Kralidis]
 
+| http://tb17.geolabs.fr:8097[ZOO-Project]
+| OGC API - Processes
+| https://github.com/gfenoy[Gérald Fenoy]
+
 | TBA
 | TBA
 | TBA
