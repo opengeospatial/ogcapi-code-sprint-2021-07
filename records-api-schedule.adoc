@@ -1,0 +1,21 @@
+== OGC API - Records Agenda
+
+Breakout Meeting room https://meet.jit.si/OGCAPI-Records-July2021
+
+Please add your GitHub handle to the table below, so that other participants know when to expect you.
+
+[cols="3,7,7a",options="header",]
+|===
+|*Time* (EST) |*What* |*Who will be here (GitHub Handles)*
+3+|*21st July 2021*
+|08:20-13:00 |Practical work|
+|13:30-16:30 |Practical work|
+3+|*22nd July 2021*
+|07:00-09:00 |Practical work|
+|10:00-12:30 |Practical work|
+|13:30-16:30 |Practical work|
+3+|*23rd July 2021*
+|07:00-09:00 |Practical work|
+|10:00-12:30 |Practical work|
+|13:30-15:30 |Practical work|
+|===
