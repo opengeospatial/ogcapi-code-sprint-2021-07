@@ -1,7 +1,7 @@
 openapi: 3.0.3
 info:
-  version: 1.0-draft.6-SNAPSHOT
-  title: "Building Blocks specified in OGC API - Processes - Part 1: Core"
+  version: 1.0-draft.6-SNAPSHOT-Sprint-Profile
+  title: "Prototype Profile of Building Blocks of OGC API - Processes - Part 1: Core"
   termsOfService: 'http://www.opengeospatial.org/legal/'
   contact:
     name: "Open Geospatial Consortium (OGC)"
@@ -13,7 +13,7 @@ info:
   x-logo:
     url: 'https://www.ogc.org/pub/www/files/OGC_Logo_2D_Blue_x_0_0.png'
   description: >
-    # Draft Standard
+    # Prototype Profile created for July 2021 OGC API Code Sprint
 paths:
   /:
     get:
