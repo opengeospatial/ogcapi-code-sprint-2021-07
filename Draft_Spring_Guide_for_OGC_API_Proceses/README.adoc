@@ -276,7 +276,7 @@ public class SimpleProcessesApi1Controller {
     )
     ResponseEntity<LandingPage> getLandingPage() {
         LandingPage lp = new LandingPage();
-        lp.setTitle("OGC API - Maps tutorial");
+        lp.setTitle("OGC API - Processes tutorial for Spring.io");
         lp.setDescription("An example of an implementation of OGC API - Processes using Spring.io");
 
         lp.addLinksItem(createLink("this document","self", "application/json",endpoint+"?f=json"));
