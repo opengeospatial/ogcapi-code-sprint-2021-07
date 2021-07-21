@@ -3,6 +3,7 @@
 
 == Introduction
 
+WARNING: This Guide is a DRAFT
 
 This Getting Started guide introduces Java developers that use Spring to working with API definition files from the draft OGC API - Processes specification. The guide is inspired by the https://reflectoring.io/spring-boot-openapi/[API-First Development with Spring Boot and Swagger] tutorial on reflectoring.io.
 
@@ -174,7 +175,19 @@ image::images/image2.png[width=447,height=314]
 As a workaround, create the following contructor-only classes (no methods are necessary) in the
 org.ogc.model package:
 
-* TBA
+* OneOfinlineOrRefData1.java
+* OneOfinlineOrRefData2.java
+* OneOfinlineOrRefDataarray.java
+* OneOfintegerstring.java
+* OneOfschema1reference.java
+* OneOfschema1referenceboolean.java
+* OneOfschema2reference2.java
+* OneOfschema2reference2boolean.java
+* OneOfstringnumberinteger.java
+* OneOfstringnumberintegerarrayobject.java
+* OneOfstringnumberintegerobjectbooleanfilemap.java
+* OneOfstringobject.java
+
 
 Now re-compile the OpenAPI definition by running the command:
 
