@@ -293,8 +293,10 @@ public class SimpleProcessesApi1Controller {
         lp.setDescription("An example of an implementation of OGC API - Processes using Spring.io");
 
         lp.addLinksItem(createLink("this document","self", "application/json",endpoint+"?f=json"));
-        lp.addLinksItem(createLink("OGC API conformance classes implemented by this server","conformance","application/json",endpoint+"/conformance"));
-        lp.addLinksItem(createLink("Access the data","data","application/json",endpoint+"/collections"));
+        lp.addLinksItem(createLink("OGC API conformance classes implemented by this server","http://www.opengis.net/def/rel/ogc/1.0/conformance","application/json",endpoint+"/conformance"));
+        lp.addLinksItem(createLink("Access the processes","http://www.opengis.net/def/rel/ogc/1.0/processes","application/json",endpoint+"/processes"));
+        lp.addLinksItem(createLink("Access the jobs","http://www.opengis.net/def/rel/ogc/1.0/job-list","application/json",endpoint+"/jobs"));
+
 
         HttpHeaders headers = new HttpHeaders();
         headers.add("Content-Type", "application/json");
@@ -362,13 +364,51 @@ Now using a client application such as Postman, send a request to http://localho
 
 [source,json]
 ----
-TBA
+{
+  "title": "OGC API - Processes tutorial using Spring.io",
+  "description": "An example of an implementation of OGC API - Processes using Spring.io",
+  "links": [
+    {
+      "href": "http://localhost:8081?f=json",
+      "rel": "self",
+      "type": "application/json",
+      "hreflang": null,
+      "title": "this document"
+    },
+    {
+      "href": "http://localhost:8081/conformance",
+      "rel": "http://www.opengis.net/def/rel/ogc/1.0/conformance",
+      "type": "application/json",
+      "hreflang": null,
+      "title": "OGC API conformance classes implemented by this server"
+    },
+    {
+      "href": "http://localhost:8081/processes",
+      "rel": "http://www.opengis.net/def/rel/ogc/1.0/processes",
+      "type": "application/json",
+      "hreflang": null,
+      "title": "Access the processes"
+    },
+    {
+      "href": "http://localhost:8081/jobs",
+      "rel": "http://www.opengis.net/def/rel/ogc/1.0/job-list",
+      "type": "application/json",
+      "hreflang": null,
+      "title": "Access the jobs"
+    }
+  ]
+}
+
 ----
 
 Next send a request to http://localhost:8081/conformance to see the conformance page. The response should be something like.
 
 [source,json]
 ----
-TBA
-
+{
+  "conformsTo": [
+    "http://www.opengis.net/spec/ogcapi-processes-1/1.0/conf/core",
+    "http://www.opengis.net/spec/ogcapi-processes-1/1.0/conf/json"
+  ]
+}
 ----
