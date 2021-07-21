@@ -29,8 +29,8 @@
 | OGC API - Features/Coverages/Maps/Tiles/Styles/Processes (Workflows)
 | https://github.com/jerstlouis[Jerome St-Louis]
 
-| https://pgeoapi.io[pygeoapi]
-| OGC API - Features/Coverages/Maps/Tiles/Styles/Processes/Records
+| https://pygeoapi.io[pygeoapi]
+| OGC API - Features/Coverages/Tiles/Processes/Records/EDR
 | https://github.com/tomkralidis[Tom Kralidis]
 
 | https://geoserver.org[GeoServer]
@@ -40,6 +40,10 @@
 | https://geonetwork-opensource.org[GeoNetwork]
 | OGC API - Records
 | https://github.com/pvgenuchten[Paul van Genuchten]
+
+| https://qgis.org[QGIS MetaSearch] (https://github.com/tomkralidis/qgis/tree/metasearch-oarec[working branch])
+| OGC API - Records
+| https://github.com/tomkralidis[Tom Kralidis]
 
 | TBA
 | TBA
