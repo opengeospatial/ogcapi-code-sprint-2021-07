@@ -45,6 +45,10 @@
 | OGC API - Records
 | https://github.com/tomkralidis[Tom Kralidis]
 
+| https://pycsw.org[pycsw] (https://github.com/geopython/pycsw)
+| OGC API - Records
+| https://github.com/kalxas[Angelos Tzotsos]
+
 | TBA
 | TBA
 | TBA
