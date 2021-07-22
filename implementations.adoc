@@ -84,8 +84,8 @@
 |===
 |Implementation | Type | Contact
 
-| TBA
-| TBA
-| TBA
+| https://github.com/opengeospatial/ets-ogcapi-coverages10[Very early draft of ETS for OGC API - Coverages]
+| OGC API - Coverages
+| @ghobona
 
 |===
