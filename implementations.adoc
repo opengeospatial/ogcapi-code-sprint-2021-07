@@ -34,8 +34,8 @@
 | https://github.com/tomkralidis[Tom Kralidis]
 
 | https://geoserver.org[GeoServer]
-| OGC API - DGGS, FEATURES, IMAGES, MAPS, STYLES, TILES
-| https://github.com/jodygarnett[Jody Garnett]
+| OGC API - DGGS, Features, Images, Maps, Styles, Tiles, https://gs-main.geosolutionsgroup.com/geoserver/ogc/coverages/[Coverages]
+| https://github.com/jodygarnett[Jody Garnett], https://github.com/aaime[Andrea Aime]
 
 | https://geonetwork-opensource.org[GeoNetwork]
 | OGC API - Records
