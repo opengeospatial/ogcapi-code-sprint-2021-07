@@ -19,9 +19,16 @@
 
 == Next Steps for the Innovation Program
 
-* TBA
+* Development of Developer Guides (e.g. Spring, Python, nodeJS etc), including around toolchains
+* Some experimentation on Workflows (OGC API - Processes - Part 3), covering chaining
+* The filtering and coverage processing. Filtering at the metadata leveel and at the coverage cell value level
+* GeoDataClass (aka StylableLayerSet) concept in relation to discovering Processes & Data that can be used together, including in the context of Workflows
+* Some along the workflow of a search process (e.g. ISO 19115, STAC, etc).
 
 == Next Steps for the Standards Program
 
-* TBA
-* TBA
+* ETS of OGC API - Coverages, Records
+* Merge the work done on the openapi schema for the Coverages API
+* Transactions on OGC API - Processes (Part 2)
+* OGC API - Processes - Part 3: Workflows & Chaining
+
