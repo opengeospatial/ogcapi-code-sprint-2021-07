@@ -1,0 +1,9 @@
+[[references]]
+== References
+
+The following normative documents are referenced in this document.
+
+* http://docs.ogc.org/DRAFTS/18-062.html[OGC: OGC 18-062, OGC API - Processes - Part 1: Core candidate standard]
+* http://docs.ogc.org/DRAFTS/20-004.html[OGC: OGC 20-004, OGC API - Records - Part 1: Core candidate standard]
+* http://docs.ogc.org/DRAFTS/19-087.html[OGC: OGC 19-087, OGC API - Coverages - Part 1: Core candidate standard]
+* IETF: RFC-7946 The GeoJSON Format (2016)
