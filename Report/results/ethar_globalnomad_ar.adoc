@@ -1,0 +1,7 @@
+=== Augmented Reality Application
+
+Developers from Ethar Inc and Global Nomad took part in the code sprint, extending an Augmented Reality (AR) application that they are building for Testbed-17. The AR application, which runs on a smartphone, allows a coverage such as one representing a Digital Elevevation Model (DEM), to be visualized in a three-dimensional AR view as shown in <<img_ar>>. This facilitates 'tabletop' visualization so that a group of people could potentially stand around a table and see geographic representation superimposed onto that table, with the DEM viewed either through smart glasses or a smartphone. The AR application can ingest coverages encoded in GeoTIFF format, therefore the application could be served by an implementation of OGC API - Coverages.
+
+[#img_ar,reftext='{figure-caption} {counter:figure-num}']
+.Screenshots of a smartphone mirrored (a) at standby (b) with the augmented reality application running
+image::images/ar.png[width=600,align="center"]

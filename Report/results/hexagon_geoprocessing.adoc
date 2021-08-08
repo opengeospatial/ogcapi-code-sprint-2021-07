@@ -1,0 +1,17 @@
+=== Hexagon Geoprocessing Suite
+
+Developers from Hexagon took part in the code sprint, focusing on the OGC API - Processes candidate standard. The developers configured the Hexagon Geoprocessing Suite, which includes a number of Hexagon products, to offer a variety of image analysis capabilities. The suite includes ERDAS APOLLO, which provides an end-to-end workflow to execute algorithms that operate on geospatial data.  The algorithms were exposed as processes through an interface conforming to OGC API - Processes. The suite also includes ERDAS IMAGINE, a software product for image analysis and processing. The workflows were designed using the Spatial Model Editor from ERDAS IMAGINE product, a screenshot of which is shown in <<img_hexagon1>>.
+
+[#img_hexagon1,reftext='{figure-caption} {counter:figure-num}']
+.A screenshot of a workflow designed using Hexagon's Spatial Model Editor
+image::images/hexagon1.png[width=600,align="center"]
+
+ERDAS IMAGINE allows geospatial analysts to create custom models and to publish the models to the ERDAS APOLLO catalog, from where they can be executed by end-users as illustrated in <<img_hexagon3>>. While each processing job is running, an administrator can monitor the jobs through a status view as shown in <<img_hexagon2>>. This capability demonstrated the ability of OGC API - Processes to support both synchronous and asynchronous execution modes.
+
+[#img_hexagon3,reftext='{figure-caption} {counter:figure-num}']
+.A screenshot of the output of a completed processing job in Hexagon Geoprocessing suite
+image::images/hexagon3.png[width=600,align="center"]
+
+[#img_hexagon2,reftext='{figure-caption} {counter:figure-num}']
+.A screenshot of an overview of the status of processing jobs in Hexagon Geoprocessing suite
+image::images/hexagon2.png[width=600,align="center"]

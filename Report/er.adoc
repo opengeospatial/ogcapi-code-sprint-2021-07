@@ -38,7 +38,6 @@
 // The title here should match the title on the first page.
 // *****************************************************************************
 
-:page-background-image: image::images/draft_watermark.png[opacity=50%]
 
 :title: July 2021 OGC API Code Sprint Summary Engineering Report
 

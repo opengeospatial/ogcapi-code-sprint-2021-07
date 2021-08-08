@@ -1,0 +1,13 @@
+=== QGIS MetaSearch Plugin
+
+During the code sprint, developers from OSGeo and MSC worked on an enhancement of the QGIS MetaSearch Plugin to enable support for OGC API - Records. MetaSearch is a QGIS plugin that enables QGIS to act as a client application for interacting with metadata catalogue services. A screenshot of the search dialog window of the QGIS MetaSearch plugin is shown in <<img_metasearch1>>.
+
+[#img_metasearch1,reftext='{figure-caption} {counter:figure-num}']
+.The search dialog window of the QGIS MetaSearch plugin
+image::images/metasearch1.png[width=600,align="center"]
+
+A screenshot of the metadata view window of the QGIS MetaSearch plugin is shown in <<img_metasearch2>>.
+
+[#img_metasearch2,reftext='{figure-caption} {counter:figure-num}']
+.The metadata view window of the QGIS MetaSearch plugin
+image::images/metasearch2.png[width=600,align="center"]
