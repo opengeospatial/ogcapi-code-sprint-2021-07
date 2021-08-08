@@ -11,3 +11,9 @@ A screenshot of the metadata view window of the QGIS MetaSearch plugin is shown 
 [#img_metasearch2,reftext='{figure-caption} {counter:figure-num}']
 .The metadata view window of the QGIS MetaSearch plugin
 image::images/metasearch2.png[width=600,align="center"]
+
+Another screenshot of the QGIS MetaSearch plugin windows is shown in <<img_metasearch3>>.
+
+[#img_metasearch3,reftext='{figure-caption} {counter:figure-num}']
+.Another screenshot of the QGIS MetaSearch plugin windows
+image::images/metasearch-oarec.png[width=600,align="center"]

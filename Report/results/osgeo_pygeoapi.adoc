@@ -16,6 +16,15 @@ A screenshot of an overview of one of the collections of metadata records offere
 .An overview of one of the collections of metadata records offered by one of the pygeoapi instances
 image::images/pygeoapi2.png[width=600,align="center"]
 
+
+==== Accessing processes
+
+Developers from MSC, OSGeo, GeoCat BV and Geobeyond Srl configured an instance of pygeoapi to enable access to processes through an interface conforming to OGC API - Processes. A screenshot of a rendering of the API definition of one of the processes is shown in <<img_pygeoapi_process>>. 
+
+[#img_pygeoapi_process,reftext='{figure-caption} {counter:figure-num}']
+.A screenshot of a rendering of the API definition of one of the processes
+image::images/pygeoapi-oarec-updates.png[width=600,align="center"]
+
 ==== Accessing coverages
 
 Developers from 52 North configured an instance of pygeoapi to enable access to Data Cubes, initially deployed for Testbed-17. A screenshot of the pygeoapi interface from the 52 North Data Cube demonstration is shown in <<img_52northDataCube1>>.
