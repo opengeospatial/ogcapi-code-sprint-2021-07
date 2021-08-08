@@ -1,0 +1,49 @@
+[[Discussion]]
+== Discussion
+
+This sections provides a summary of the discussion.
+
+=== TBA
+
+TBA
+
+=== TBA
+
+TBA
+
+
+=== TBA
+
+TBA
+
+
+=== TBA
+
+TBA
+
+
+=== TBA
+
+TBA
+
+=== TBA
+
+TBA
+
+=== Lessons Learnt
+
+Towards the end of the sprint, participants held a discussion on the lessons learnt from the initiative. A summary of the lessons identified by the sprint participants is presented below:
+
+* RecordsAPI: The relationship with STAC was clarified in this sprint. The direction of the RecordsAPI is aligning more with STAC.
+* RecordsAPI: Crosswalk aligned ISO19115-3 with the OGC Record.
+* There may be a little bit of work to do in aligning satellite imagery support between RecordsAPI and STAC.
+* Clarity on what it means to have an ISO 19115 extension. The pycsw/pygeoapi? demo showed how.
+* The change with OpenSearch.org introduces challenges in terms of usage/licence. Will mean change requests for existing OGC OpenSearch standards.
+* OpenSearch is still an active thing in OGC. It will be placed in an extension of OGC API - Records and not the Core.
+* OGC Member Meeting in September 2021 (Metadata Adhoc) will have a session on tackling metadata issues. It's linked to the Singapore Geo Festival.
+* Lots of implementations of OGC API - Processes provides confidence that it works.
+* The Spring work will help develop Guides.
+* OGC API - Processes is sufficiently different from WPS
+* The use of JSON Schema to describe inputs and outputs is going to be great for uptake.
+* There is an increasing need for Best Practices and Profiles. e.g. Routing, Maps, NDVI, ...
+* OGC API - Processes weather toolbox (we're starting to think about this in MetOceanDWG)

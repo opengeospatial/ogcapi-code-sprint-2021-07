@@ -1,0 +1,13 @@
+=== ZOO Project
+
+Developers from Geolabs deployed an instance of ZOO Project, an open source platform written in C that implements a number of interface standards for geospatial processing, including OGC API - Processes and multiple versions of the WPS standard. The ZOO Project instance deployed for the code sprint offered wrappers around libraries such as the Orfeo Toolbox (OTB) and software such as GRASS GIS and SAGA GIS. This meant that through the OGC API - Processes interface, a client application could invoke the processing and analytical functions offered by these software packages. A screenshot of a landing page from a Geolabs ZOO Project instance is shown in <<img_geolabs1>>.
+
+[#img_geolabs1,reftext='{figure-caption} {counter:figure-num}']
+.A landing page from a Geolabs ZOO Project instance
+image::images/geolabs1.png[width=800,align="center"]
+
+A screenshot of a  request and response from a completed processing job executed on ZOO Project is shown in <<img_geolabs2>>.
+
+[#img_geolabs2,reftext='{figure-caption} {counter:figure-num}']
+.A request and response from a completed processing job executed on ZOO Project
+image::images/geolabs2.png[width=800,align="center"]

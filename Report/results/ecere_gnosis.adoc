@@ -1,0 +1,3 @@
+=== Ecere GNOSIS Map Server
+
+The GNOSIS Map Server is written in the eC programming language and supports multiple OGC API specifications. The API allows for retrieval of coverages, maps and tiles (both coverage and map tiles) of a dataset. Ecere configured the server to offer coverages through an interface conforming to OGC API - Coverages. Multiple encodings are supported including GNOSIS Map Tiles (which can contain either vector data, gridded coverages, imagery, point clouds or 3D meshes), GeoTIFF, GeoJSON, Mapbox Vector Tiles and MapML. For this code sprint, the server was used in support of the development of compliance tests.

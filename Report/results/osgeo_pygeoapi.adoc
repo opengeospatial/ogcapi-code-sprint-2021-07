@@ -1,0 +1,31 @@
+=== pygeoapi
+
+A number of sprint participants deployed instances of https://pygeoapi.io[pygeoapi] and worked collaboratively to enhance the software's support for OGC APIs. Participants working on pygeoapi included developers from OSGeo, Meteorological Service of Canada (MSC), 52 North, GeoCat BV and Geobeyond Srl. pygeoapi is an open source Python server implementation of the OGC API suite of standards.  The product supports the microservices approach and allows for scalability and cloud friendly deployment.
+
+==== Accessing metadata records
+
+Developers from MSC, OSGeo, GeoCat BV and Geobeyond Srl configured an instance of pygeoapi to enable access to metadata records. A screenshot of the landing page of one of the pygeoapi instances is shown in <<img_pygeoapi1>>.
+
+[#img_pygeoapi1,reftext='{figure-caption} {counter:figure-num}']
+.The landing page of one of the pygeoapi instances
+image::images/pygeoapi1.png[width=600,align="center"]
+
+A screenshot of an overview of one of the collections of metadata records offered by one of the pygeoapi instances is shown in <<img_pygeoapi2>>.
+
+[#img_pygeoapi2,reftext='{figure-caption} {counter:figure-num}']
+.An overview of one of the collections of metadata records offered by one of the pygeoapi instances
+image::images/pygeoapi2.png[width=600,align="center"]
+
+==== Accessing coverages
+
+Developers from 52 North configured an instance of pygeoapi to enable access to Data Cubes, initially deployed for Testbed-17. A screenshot of the pygeoapi interface from the 52 North Data Cube demonstration is shown in <<img_52northDataCube1>>.
+
+[#img_52northDataCube1,reftext='{figure-caption} {counter:figure-num}']
+.Screenshot of pygeoapi interface from the 52 North Data Cube demonstration
+image::images/52northDataCube1.png[width=600,align="center"]
+
+Once coverages from the data cube are published through the pygeoapi, they can be accessed through the OGC API - Coverages interface and displayed on a client application such as QGIS. A coverage displayed using QGIS after download from a data cube is shown in <<img_52northDataCube2>>.
+
+[#img_52northDataCube2,reftext='{figure-caption} {counter:figure-num}']
+.Coverage displayed using QGIS after download from the 52 North Data Cube supplied using pygeoapi
+image::images/52northDataCube2.png[width=600,align="center"]

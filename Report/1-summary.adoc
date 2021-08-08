@@ -1,0 +1,52 @@
+== Subject
+
+The subject of this Engineering Report (ER) is a virtual code sprint that was held from July 21st to July 23rd , 2021 to advance the development of the OGC API - Processes draft standard, OGC API - Records draft standard, and the OGC API – Coverages draft standard. An Application Programming Interface (API) is a standard set of documented and supported functions and procedures that expose the capabilities or data of an operating system, application or service to other applications (adapted from ISO/IEC TR 13066-2:2016).
+
+== Executive Summary
+
+This Engineering Report (ER) summarizes the main achievements of the July 2021 OGC API Virtual Code Sprint, conducted from July 21st to July 23rd. The goal of the code sprint was to progress the development of the draft OGC API standards for Records, Coverages and Processes. The sprint served to accelerate development of candidate standards of the OGC APIs.
+
+Specifically, the objectives of the code sprint were to:
+
+* Develop prototype implementations of OGC API – Processes
+* Develop prototype implementations of OGC API – Records
+* Develop prototype implementations of OGC API – Coverages
+* Test the prototype implementations
+* Provide feedback to the Editor about what worked and what did not work
+* Provide feedback about the specification document, especially what is missing from the document
+
+Part of the motivation for holding the sprint was:
+
+* APIs are a popular, effective method for rapid software development
+* There is an increasing need for interoperability between Web APIs
+* The growing uptake of location within and outside of geospatial developer communities
+
+The draft OGC API - Processes specification defines an interface that enables the execution of geospatial computing processes and the retrieval of metadata describing their purpose and functionality. Typically, these processes execute well-defined algorithms that ingest vector and/or coverage data to produce new datasets.
+
+The draft OGC API - Records specification defines an interface that enables discovery and access to metadata records about resources such as features, coverages, tiles / maps, models, assets, services or widgets. The draft specification enables the discovery of geospatial resources by standardizing the way collections of descriptive information about the resources (metadata) are exposed and accessed.
+
+The draft OGC API - Coverages specification defines an interface that enables access to coverages that are modeled according to the Coverage Implementation Schema (CIS) 1.1. Coverages are represented by some binary or ASCII serialization, specified by some data (en­coding) format. Arguably the most popular type of coverage is that of a gridded coverage. Gridded coverages have a grid as their domain set describing the direct positions in multi-dimensional coordinate space, depending on the type of grid. Satellite imagery is typically modeled as a gridded coverage, for example.
+
+The code sprint facilitated the development and testing of prototype implementations of the aforementioned OGC API candidate standards. The code sprint therefore successfully met all of its objectives and achieved its goal of progressing the development of the standards.
+
+
+===	Document contributor contact points
+
+All questions regarding this document should be directed to the editor or the contributors:
+
+*Contacts*
+[width="80%",options="header",caption=""]
+|====================
+|Name |Organization | Role
+|Gobe Hobona | OGC | Editor
+|Joana Simoes | OGC | Editor
+|====================
+
+// *****************************************************************************
+// Editors please do not change the Foreword.
+// *****************************************************************************
+=== Foreword
+
+Attention is drawn to the possibility that some of the elements of this document may be the subject of patent rights. The Open Geospatial Consortium shall not be held responsible for identifying any or all such patent rights.
+
+Recipients of this document are requested to submit, with their comments, notification of any relevant patent claims or other intellectual property rights of which they may be aware that might be infringed by any implementation of the standard set forth in this document, and to provide supporting documentation.

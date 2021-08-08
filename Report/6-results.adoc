@@ -1,0 +1,26 @@
+[[results]]
+== Results
+
+Multiple organizations provided servers, API implementations, and capabilities during the event. The rest of this section describes each of the implementations.
+
+include::results/ethar_globalnomad_ar.adoc[]
+
+include::results/cubewerx_cubeserv.adoc[]
+
+include::results/geolabs_zoo_project.adoc[]
+
+include::results/geosolutions_geoserver.adoc[]
+
+include::results/ecere_gnosis.adoc[]
+
+include::results/hexagon_geoprocessing.adoc[]
+
+include::results/qgis_metasearch.adoc[]
+
+include::results/openwork.adoc[]
+
+include::results/osgeo_pycsw.adoc[]
+
+include::results/osgeo_pygeoapi.adoc[]
+
+include::results/other_outputs.adoc[]

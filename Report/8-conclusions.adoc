@@ -1,0 +1,29 @@
+[[conclusions]]
+== Conclusions
+
+The code sprint successfully met all of its objectives and achieved its goal of progressing the development of the OGC API - Processes draft standard, OGC API - Records draft standard, and the OGC API – Coverages draft standard. There were no issues found on the Processes API, which helped to validate the maturity and stability of the API. Discussion about the Records API helped to improve understanding of the potential relationship to other related specifications (e.g. STAC and ISO 19115). Issues raised relating to the Coverages API, were focused around clarification, thereby identifying areas where the documentation could be improved. The sprint participants demonstrated that the OGC API pattern can effectively address the needs of communities that use, process and analyze geospatial data.
+
+
+=== Future work
+
+The following general recommendations for future work items were made during the sprint.
+
+==== Ideas for the Innovation Program
+
+Future work in Innovation Program could include:
+
+* Development of Developer Guides (e.g. Spring, Python, nodeJS etc), including around toolchains
+* Some experimentation on Workflows (OGC API - Processes - Part 3), covering chaining
+* The filtering and coverage processing. Filtering at the metadata level and at the coverage cell value level
+* GeoDataClass (aka StylableLayerSet) concept in relation to discovering Processes & Data that can be used together, including in the context of Workflows
+* Some along the workflow of a search process (e.g. ISO 19115, STAC, etc).
+
+
+==== Ideas for the Standards Program
+
+Future work in the Standards Program could include:
+
+* ETS of OGC API - Coverages, Records
+* Merge the work done on the openapi schema for the Coverages API
+* Transactions on OGC API - Processes (Part 2)
+* OGC API - Processes - Part 3: Workflows & Chaining
