@@ -21,7 +21,7 @@ STAC inherits from an OGC API - Features collection, but ideally the preference 
 
 There was also discussion about the structure of the Part 1 document, including whether some conformance classes (e.g. sort by) should be moved to OGC API - Features. This also included consideration of where a section describing the Collection could be placed in OGC API - Records - Part 1: Core. This capability would facilitate the creation of static catalogs. A static catalog would offer value to some user needs. Such a capability could have more utility and wider uptake if included in OGC API - Features, and possibly in  the long term it could be part of OGC API - Common. The capability could also be specified in OGC API - Records and still have utility in OGC API - Features. In OGC API - Features, by default, every API implementing the standard will provide access to a single dataset.
 
-=== TBA
+=== Should OGC API - Records support the OpenSearch Syndication Format?
 
 TBA
 
