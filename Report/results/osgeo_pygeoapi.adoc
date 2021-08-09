@@ -1,6 +1,6 @@
 === pygeoapi
 
-A number of sprint participants deployed instances of https://pygeoapi.io[pygeoapi] and worked collaboratively to enhance the software's support for OGC APIs. Participants working on pygeoapi included developers from OSGeo, Meteorological Service of Canada (MSC), 52 North, GeoCat BV and Geobeyond Srl. pygeoapi is an open source Python server implementation of the OGC API suite of standards.  The product supports the microservices approach and allows for scalability and cloud friendly deployment.
+A number of sprint participants deployed instances of https://pygeoapi.io[pygeoapi] and worked collaboratively to enhance the software's support for various OGC APIs. Participants working on pygeoapi included developers from OSGeo, Meteorological Service of Canada (MSC), 52 North, GeoCat BV and Geobeyond Srl. pygeoapi is an open source Python server implementation of the OGC API suite of standards.  The product supports the microservices approach and allows for scalability and cloud friendly deployment.
 
 ==== Accessing metadata records
 
@@ -19,7 +19,7 @@ image::images/pygeoapi2.png[width=600,align="center"]
 
 ==== Accessing processes
 
-Developers from MSC, OSGeo, GeoCat BV and Geobeyond Srl configured an instance of pygeoapi to enable access to processes through an interface conforming to OGC API - Processes. A screenshot of a rendering of the API definition of one of the processes is shown in <<img_pygeoapi_process>>. 
+Developers from MSC, OSGeo, GeoCat BV and Geobeyond Srl configured an instance of pygeoapi to enable access to processes through an interface conforming to OGC API - Processes. A screenshot of a rendering of the API definition of one of the processes is shown in <<img_pygeoapi_process>>. pygeoapi was updated to support the latest changes in the OGC API - Processes specification.
 
 [#img_pygeoapi_process,reftext='{figure-caption} {counter:figure-num}']
 .A screenshot of a rendering of the API definition of one of the processes

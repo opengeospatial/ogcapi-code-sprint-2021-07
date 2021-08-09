@@ -12,7 +12,7 @@ The following general recommendations for future work items were made during the
 
 Future work in Innovation Program could include:
 
-* Development of Developer Guides (e.g. Spring, Python, nodeJS etc), including around toolchains
+* Development of Developer Guides (e.g. Spring, Python, Node.js etc), including around toolchains
 * Some experimentation on Workflows (OGC API - Processes - Part 3), covering chaining
 * The filtering and coverage processing. Filtering at the metadata level and at the coverage cell value level
 * GeoDataClass (aka StylableLayerSet) concept in relation to discovering Processes & Data that can be used together, including in the context of Workflows
