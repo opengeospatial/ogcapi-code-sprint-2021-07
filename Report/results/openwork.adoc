@@ -4,7 +4,7 @@ Developers from OpenWork took part in the code sprint, with focus on metadata an
 
 === OpenSearch Syndication Format
 
-Some of the prototyping by developers from OpenWork involved implementation of an OpenSearch description document. The OpenSearch description document is used to describe a search engine so that it can be used by search client applications. Once configured on a web browser, the search engine becomes accessible as illustrated on <<img_openwork1>>.
+Some of the prototyping by developers from OpenWork involved implementation of an OpenSearch description document. The OpenSearch description document is used to describe a search engine so that it can be used by search client applications. Once configured on an OpenSearch client (ideally a web browser), the search engine becomes accessible as illustrated on <<img_openwork1>>.
 
 [#img_openwork1,reftext='{figure-caption} {counter:figure-num}']
 .The landing page of a search engine's user interface
