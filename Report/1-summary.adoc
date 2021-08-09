@@ -40,6 +40,15 @@ All questions regarding this document should be directed to the editor or the co
 |Name |Organization | Role
 |Gobe Hobona | OGC | Editor
 |Joana Simoes | OGC | Editor
+|Full Name | Organisation Name | Contributor
+|Full Name | Organisation Name | Contributor
+|Full Name | Organisation Name | Contributor
+|Full Name | Organisation Name | Contributor
+|Full Name | Organisation Name | Contributor
+|Full Name | Organisation Name | Contributor
+|Full Name | Organisation Name | Contributor
+|Full Name | Organisation Name | Contributor
+|Full Name | Organisation Name | Contributor
 |====================
 
 // *****************************************************************************

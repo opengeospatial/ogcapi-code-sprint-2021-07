@@ -3,9 +3,23 @@
 
 This sections provides a summary of the discussion.
 
-=== TBA
+=== Potential relationship between STAC and OGC API - Records
 
-TBA
+The sprint participants discussed the potential relationship between STAC and OGC API - Records, in order to identify opportunities for alignment. This subsection summarises that discussion.
+
+The sprint participants noted that there had been previous discussions between OGC staff and the STAC community about the possibility of bringing the STAC API into the OGC's standardization process. This was partly because the STAC API is an extension of OGC API - Features - Part 1: Core. The current thinking is to submit STAC into the standardization process as a candidate OGC Community Standard. That would require STAC to be stable, at version 1.0 at least.
+
+Some of the opportunities for alignment between STAC and OGC API - Records are static equivalents for Collections and Records. The sprint participants noted that, in a previous discussion, there was an observation that there is a need for a 'Dataset Record'. A 'Record' would be a flexible and generic concept, whereas a Dataset Record would represent dataset metadata such as in the context of ISO 19115. The grouping would be the Collection. With these concepts in place, it would potentially be possible to have STAC as a Record or an extension of OGC API - Records.
+
+The sprint participants noted that in OGC API - Records, in contrast to STAC, the actual Record description is distinct from the API. The Record description is loosely bound to the API in OGC API - Records, for example, there is no requirement for the record to be encoded in GeoJSON as other encodings (e.g. ATOM) are allowed. The Record is also not bound to a particular dataset or asset. There is an expectation that developers would take the Record and enrich the content to suit specific needs. There was an observation made that it would benefit developers to extract the description of the Record content model and make it more standard-alone on either the specification document as a building block or in an accompanying document such as user guide.
+
+What is the distinction between the STAC Catalog and the STAC Collections specifications? The STAC Catalog is a JSON file of links that provides a structure to organize and browse STAC Items. The STAC Collection is an extension of the STAC Catalog with additional information that describes STAC Items that fall within the Collection. The STAC Catalog specification is therefore less tied to the API. It is just a structured concept that says "this links to more items". If you have millions of records, instead of placing them in a single collection, the catalog lets you break them up in arbitrary ways. The approach is based on OGC API - Features, and so a STAC Collection can be served as a Collection from an OGC API - Features implementation.
+
+The Records API does not do anything different to what the Features API does. That is, the two APIs are consistent. This suggests that the biggest need is for the Dataset Collection, with the fields in the collection clearly defined. This is necessary because Collection is non-GeoJSON, whereas Record is GeoJSON. They should translate between each other easily. This could, for instance, lead to a static Features API involving a series of files in a Cloud Storage resource. The sprint participants observed that, from a Meteorological perpestive, it would be useful to have a static API that provides access to a series of files.
+
+STAC inherits from an OGC API - Features collection, but ideally the preference would be to inherit from a Dataset Collection. So potentially there could be two separate representations of the collection, at different levels of the API hierarchy, using an 'alternate' relation type to provide links to the two different representations. The sprint participants suggested that Part 1 should be more generic and then consider the Dataset Collection for Part 2. Support for datasets should be optional and could be based on ISO 19115-1 metadata. This could then lead to a Part 3 that focuses on STAC. The work on STAC should not start until the Part 1 is stable.
+
+There was also discussion about the structure of the Part 1 document, including whether some conformance classes (e.g. sort by) should be moved to OGC API - Features. This also included consideration of where a section describing the Collection could be placed in OGC API - Records - Part 1: Core. This capability would facilitat the creation of static catalogs. A static catalog would offer value to some user needs. Such a capability could have more utility and wider uptake if included in OGC API - Features, and possibly in  the long term it could be part of OGC API - Common. The capability could also be specified in OGC API - Records and still have utility in OGC API - Features. In OGC API - Features, by default, every API implementing the standard will provide access to a single dataset. 
 
 === TBA
 
