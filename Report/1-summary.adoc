@@ -40,41 +40,41 @@ All questions regarding this document should be directed to the editor or the co
 |Name |Organization | Role
 |Gobe Hobona | OGC | Editor
 |Joana Simoes | OGC | Editor
-|	Adrian	 | 	Akbari	 | 	adrianakbari	 | 	Contributor
-|	Amy	 | 	Youmans	 | 	AGC	 | 	Contributor
-|	Andrea	 | 	Aime	 | 	GeoSolutions	 | 	Contributor
-|	Angelos	 | 	Tzotsos	 | 	Open Source Geospatial Foundation	 | 	Contributor
-|	Benjamin	 | 	Pross	 | 	52°North GmbH	 | 	Contributor
-|	Bradford	 | 	Dean	 | 	Mohawk Council of Kahnawake	 | 	Contributor
-|	Brian	 | 	Hamlin	 | 	OSGeo	 | 	Contributor
-|	Byron	 | 	Cochrane	 | 	OpenWork Ltd	 | 	Contributor
-|	Chris	 | 	Holmes	 | 	Planet	 | 	Contributor
-|	Clemens	 | 	Portele	 | 	interactive instruments	 | 	Contributor
-|	Colin	 | 	Steinmann	 | 	Ethar Inc	 | 	Contributor
-|	Diego	 | 	Caraffini	 | 	Ecere co.	 | 	Contributor
-|	Eike Hinderk	 | 	Jürrens	 | 	52°North Spatial Information Research GmbH	 | 	Contributor
-|	Fabio	 | 	Govoni	 | 	MEEO	 | 	Contributor
-|	Francesco 	 | 	Bartoli 	 | 	Geobeyond 	 | 	Contributor
-|	Gérald	 | 	Fenoy	 | 	GeoLabs	 | 	Contributor
-|	Gladys	 | 	Villegas	 | 	Ghent University	 | 	Contributor
-|	Iain	 | 	Burnell	 | 	Dstl	 | 	Contributor
-|	Ingrid	 | 	Lagares	 | 	UFMG	 | 	Contributor
-|	Jeff	 | 	Harrison	 | 	AGC	 | 	Contributor
-|	Jerome	 | 	St-Louis	 | 	Ecere	 | 	Contributor
-|	John	 | 	Ferry	 | 	Trenchant Analytics	 | 	Contributor
-|	Mario	 | 	Cavicchi	 | 	MEEO	 | 	Contributor
-|	Martin	 | 	Pontius	 | 	52°North Spatial Information Research GmbH	 | 	Contributor
-|	Nazih	 | 	Fino	 | 	Global Nomad GIS Services	 | 	Contributor
-|	Panagiotis	 | 	Vretanos	 | 	CubeWerx Inc.	 | 	Contributor
-|	Patrick	 | 	Dion	 | 	Ecere Corporation	 | 	Contributor
-|	Paul	 | 	van Genuchten	 | 	GeoCat BV	 | 	Contributor
-|	Philippe	 | 	Pinheiro	 | 	LIST	 | 	Contributor
-|	Richard	 | 	Conway	 | 	Telespazio UK Ltd	 | 	Contributor
-|	Rob	 | 	Emanuele	 | 	Microsoft	 | 	Contributor
-|	Roger	 | 	Brackin	 | 	Envitia	 | 	Contributor
-|	Stephan	 | 	Meißl	 | 	EOX	 | 	Contributor
-|	Steven	 | 	McDaniel	 | 	Hexagon Geospatial	 | 	Contributor
-|	Tom	 | 	Kralidis	 | 	Meteorological Service of Canada	 | 	Contributor
+|	Adrian	 Akbari	 | 	adrianakbari	 | 	Contributor
+|	Amy	 Youmans	 | 	AGC	 | 	Contributor
+|	Andrea	 Aime	 | 	GeoSolutions	 | 	Contributor
+|	Angelos	 Tzotsos	 | 	Open Source Geospatial Foundation	 | 	Contributor
+|	Benjamin	 Pross	 | 	52°North GmbH	 | 	Contributor
+|	Bradford	 Dean	 | 	Mohawk Council of Kahnawake	 | 	Contributor
+|	Brian	 Hamlin	 | 	Open Source Geospatial Foundation	 | 	Contributor
+|	Byron	 Cochrane	 | 	OpenWork Ltd	 | 	Contributor
+|	Chris	 Holmes	 | 	Planet	 | 	Contributor
+|	Clemens	 Portele	 | 	interactive instruments	 | 	Contributor
+|	Colin	 Steinmann	 | 	Ethar Inc	 | 	Contributor
+|	Diego	 Caraffini	 | 	Ecere co.	 | 	Contributor
+|	Eike Hinderk	 Jürrens	 | 	52°North Spatial Information Research GmbH	 | 	Contributor
+|	Fabio	 Govoni	 | 	MEEO	 | 	Contributor
+|	Francesco 	 Bartoli 	 | 	Geobeyond 	 | 	Contributor
+|	Gérald	 Fenoy	 | 	GeoLabs	 | 	Contributor
+|	Gladys	 Villegas	 | 	Ghent University	 | 	Contributor
+|	Iain	 Burnell	 | 	Dstl	 | 	Contributor
+|	Ingrid	 Lagares	 | 	UFMG	 | 	Contributor
+|	Jeff	 Harrison	 | 	AGC	 | 	Contributor
+|	Jerome	 St-Louis	 | 	Ecere	 | 	Contributor
+|	John	 Ferry	 | 	Trenchant Analytics	 | 	Contributor
+|	Mario	 Cavicchi	 | 	MEEO	 | 	Contributor
+|	Martin	 Pontius	 | 	52°North Spatial Information Research GmbH	 | 	Contributor
+|	Nazih	 Fino	 | 	Global Nomad GIS Services	 | 	Contributor
+|	Panagiotis	 Vretanos	 | 	CubeWerx Inc.	 | 	Contributor
+|	Patrick	 Dion	 | 	Ecere Corporation	 | 	Contributor
+|	Paul	 van Genuchten	 | 	GeoCat BV	 | 	Contributor
+|	Philippe	 Pinheiro	 | 	LIST	 | 	Contributor
+|	Richard	 Conway	 | 	Telespazio UK Ltd	 | 	Contributor
+|	Rob	 Emanuele	 | 	Microsoft	 | 	Contributor
+|	Roger	 Brackin	 | 	Envitia	 | 	Contributor
+|	Stephan	 Meißl	 | 	EOX	 | 	Contributor
+|	Steven	 McDaniel	 | 	Hexagon Geospatial	 | 	Contributor
+|	Tom	 Kralidis	 | 	Meteorological Service of Canada	 | 	Contributor
 |====================
 
 // *****************************************************************************
