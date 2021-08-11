@@ -27,14 +27,14 @@ image::images/pygeoapi-oarec-updates.png[width=600,align="center"]
 
 ==== Accessing coverages
 
-Developers from 52 North configured an instance of pygeoapi to enable access to Data Cubes, initially deployed for Testbed-17. A screenshot of the pygeoapi interface from the 52 North Data Cube demonstration is shown in <<img_52northDataCube1>>.
+Developers from 52°North configured an instance of pygeoapi to enable access to Data Cubes, initially deployed for Testbed-17. A screenshot of the pygeoapi interface from the 52°North Data Cube demonstration is shown in <<img_52northDataCube1>>.
 
 [#img_52northDataCube1,reftext='{figure-caption} {counter:figure-num}']
-.Screenshot of pygeoapi interface from the 52 North Data Cube demonstration
+.Screenshot of pygeoapi interface from the 52°North Data Cube demonstration
 image::images/52northDataCube1.png[width=600,align="center"]
 
 Once coverages from the data cube are published through the pygeoapi, they can be accessed through the OGC API - Coverages interface and displayed on a client application such as QGIS. A coverage displayed using QGIS after download from a data cube is shown in <<img_52northDataCube2>>.
 
 [#img_52northDataCube2,reftext='{figure-caption} {counter:figure-num}']
-.Coverage displayed using QGIS after download from the 52 North Data Cube supplied using pygeoapi
+.Coverage displayed using QGIS after download from the 52°North Data Cube supplied using pygeoapi
 image::images/52northDataCube2.png[width=600,align="center"]

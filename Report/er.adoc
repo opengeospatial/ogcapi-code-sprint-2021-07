@@ -157,6 +157,9 @@ include::8-conclusions.adoc[]
 // Editors add or remove annexes as necessary.
 // *****************************************************************************
 
+include::annex-a.adoc[]
+
+include::annex-b.adoc[]
 
 // *****************************************************************************
 // Revision History should be the last annex before the Bibliography.

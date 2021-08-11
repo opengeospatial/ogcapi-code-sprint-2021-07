@@ -1,0 +1,155 @@
+[appendix]
+[[annex_mappings,Appendix B]]
+= Mappings from OGC API - Records Queryables to ISO 19115-3
+
+[cols=",,,,,,",options="header",]
+|===
+|*Queryables* |*Obligation* |*Description* |*ISO 19115-1 (for dataset metadata)* |*ISO Obligation* |*ISO Definition* |*Notes*
+|recordId |M |A unique record identifier assigned by the server. |//mdb:MD_Metadata +
+/mcc:MD_Identifier |M |Unique identifier for the metadata record |
+|recordCreated |O |The date this record was created in the server. |//mdb:MD_Metadata +
+/mdb:dateInfo +
+/cit:CI_Date +
+/cit:date  +
+--With-- +
+/cit:dateType +
+/cit:CI_DateTypeCode @codeListValue=“creation” |M |date(s) associated with the metadata  +
+NOTE Creation date must be provided,others can also be provided |
+|recordUpdated |O |The most recent date on which the record was changed. |//mdb:MD_Metadata +
+/mdb:dateInfo +
+/cit:CI_Date +
+/cit:date  +
+--With-- +
+/cit:dateType +
+/cit:CI_DateTypeCode @codeListValue=“lastUpdate” |O |date(s) associated with the metadata  +
+NOTE Creation date must be provided, others can also be provided |
+|links |O |A list of links for navigating the API. |For link to self  +
+//mdb:MD_Metadata/mdb:metadataLinkage +
+For link to alternate source -  +
+//mdb:MD_Metadata/mdb:alternativeMetadataReference +
+For link to parent -  +
+//mdb:MD_Metadata/mdb:parentMetadata |O |Not sure how to best map "collection where this record is a part of" or "links to related records". What goes into `links` and what goes into `associations`? |
+|type |M |The nature or genre of the resource. |//mdb:MD_Metadata +
+/mdb:metadataScope +
+/mdb:MD_MetadataScope +
+/mdb:resourceScope |M |the scope/type of resource for which metadata is provided.  +
+From codelist - MD_ScopeCode |
+|title |M |A human-readable name given to the resource. |//mdb:MD_Metadata +
+/mdb:identificationInfo +
+//mri:MD_DataIdentification +
+/mri:citation +
+/cit:CI_Citation +
+/cit:title |M |name by which the cited resource is known |
+|description |O |A free-text description of the resource. |//mdb:MD_Metadata +
+/mdb:identificationInfo +
+/mri:MD_DataIdentification +
+/mri:citation +
+/cit:CI_Citation +
+/cit:abstract |M |brief narrative summary of the resource |
+|keywords |O |A list of keywords or tag associated with the resource. |//mdb:MD_Metadata +
+/mdb:identificationInfo +
+/mri:MD_DataIdentification +
+/mri:descriptiveKeywords +
+/mri:MD_Keywords +
+/mri:keyword |O |commonly used word(s) or formalised word(s) or phrase(s) used to describe the subject |
+|keywordsCodespace |O |A reference to a controlled vocabulary used for the keywords property. |//mdb:MD_Metadata +
+/mdb:identificationInfo +
+/mri:MD_DataIdentification +
+/mri:descriptiveKeywords +
+/mri:MD_Keywords +
+/mri:thesaurusName |O |name of the formally registered thesaurus or a similar authoritative source of keywords |
+|language |O |This refers to the natural language used for textual values. |For the record- +
+//mdb:MD_Metadata +
+/mdb:defaultLocale +
+For the resource- +
+//mdb:MD_Metadata +
+/mdb:identificationInfo +
+/mri:MD_DataIdentification +
+/mdb:defaultLocale |O |language and character set used for documenting metadata +
+Or +
+language and character set used within the resource |Is this for the record or the resource?
+|externalId |O |An identifier for the resource assigned by an external entity. |//mdb:MD_Metadata +
+/mdb:identificationInfo  +
+/mri:MD_DataIdentification +
+/mri:citation +
+/cit:CI_Citation +
+/cit:identifier |O |value uniquely identifying an object within a namespace |Part of the CI_Citation class. Used in multiple locations
+|updated |O |The more recent date on which the resource was changed. |//mdb:MD_Metadata +
+/mdb:identificationInfo +
+/mri:MD_DataIdentification +
+/mri:citation +
+/cit:CI_Citation +
+/cit:date +
+--With-- +
+/cit:dateType +
+/cit:CI_DateTypeCode  +
+@codeListValue=“lastUpdate” |O |reference date for the cited resource |
+|publisher |O |The entity making the resource available. |//mdb:MD_Metadata +
+/mdb:identificationInfo +
+/mri:MD_DataIdentification +
+/mri:pointOfContact +
+--With-- +
+/cit:role +
+/CI_RoleCode +
+@codeListValue=“publisher” +
+—And/Or— +
+/mdb:distributionInfo +
+/mrd:MD_Distribution +
+/mrd:distributor +
+/mrd:MD_Distributor +
+/mrd:distributorContact |O | |At least 3 posible locations. Could also be captured under dataset citation citedResponsibleParty
+|themes |O |A knowledge orgnaization system used to classify the resource. |//mdb:MD_Metadata +
+/mdb:identificationInfo +
+/mri:MD_DataIdentification +
+/mri:topicCategory |O |main theme(s) of the resource +
+ +
+from enumeration “MD_TopicCategoryCode” |
+|formats |O |A list of available distributions for the resource. |//mdb:MD_Metadata +
+/mdb:distributionInfo +
+/mrd:MD_Distribution +
+/mrd:MD_Format |O |description of the computer language construct that specifies the representation of data objects in a record, file, message, storage device or transmission channel |
+|contactPoint |O |An entity to contact about the resource. |//mdb:MD_Metadata +
+/mdb:identificationInfo +
+/mri:MD_DataIdentification +
+/mri:pointOfContact +
+--With-- +
+/cit:role +
+/CI_RoleCode +
+@codeListValue=“pointOfContact” |O |identification of, and means of communication with, person(s) and organisation(s) associated with the resource |
+|license |O |A legal document under which the resource is made available. |//mdb:MD_Metadata  +
+/mdb:identificationInfo +
+/mri:MD_DataIdentification +
+/mri:resourceConstraints +
+/mco:MD_LegalConstraints +
+With either +
+/mco:accessConstraints +
+or  +
+/mco:useConstraints  +
+/mco:MD_RestrictionCode  +
+@codeListValue=“license” |O |restrictions and legal prerequisites for accessing and using the resource or metadata |both license and copyright are captured as legal constraints
+|rights |O |A statement that concerns all rights not addressed by the license such as a copyright statement. |//mdb:MD_Metadata  +
+/mdb:identificationInfo +
+/mri:MD_DataIdentification +
+/mri:resourceConstraints +
+/mco:MD_LegalConstraints +
+With either +
+/mco:accessConstraints +
+or  +
+/mco:useConstraints  +
+/mco:MD_RestrictionCode  +
+@codeListValue=“copyright” |O | |both license and copyright are captured as legal constraints
+|extent |O |The spatio-temporal coverage of the resource. |//mdb:MD_Metadata +
+/mdb:identificationInfo +
+/mri:MD_DataIdentification +
+/mri:extent +
+/gex:EX_Extent |O |spatial and temporal extent of the resource |
+|associations |O |A list of links for accessing the resource, links to other resources associated with this resource, etc. |For the resource - +
+//mdb:MD_Metadata +
+/mdb:distributionInfo +
+/mrd:MD_Distribution +
+For associated data - +
+//mdb:MD_Metadata +
+/mdb:identificationInfo +
+/mri:MD_DataIdentification +
+/mri:asssociatedResource |O | |Multiple locations posible. Two most common listed.
+|===

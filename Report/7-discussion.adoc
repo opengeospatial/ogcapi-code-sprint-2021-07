@@ -21,37 +21,44 @@ STAC inherits from an OGC API - Features collection, but ideally the preference 
 
 There was also discussion about the structure of the Part 1 document, including whether some conformance classes (e.g. sort by) should be moved to OGC API - Features. This also included consideration of where a section describing the Collection could be placed in OGC API - Records - Part 1: Core. This capability would facilitate the creation of static catalogs. A static catalog would offer value to some user needs. Such a capability could have more utility and wider uptake if included in OGC API - Features, and possibly in  the long term it could be part of OGC API - Common. The capability could also be specified in OGC API - Records and still have utility in OGC API - Features. In OGC API - Features, by default, every API implementing the standard will provide access to a single dataset.
 
-=== Should OGC API - Records support the OpenSearch Syndication Format?
+=== Should OGC API - Records support the OpenSearch Syndication Protocol?
 
-TBA
+The sprint participants discussed whether OpenSearch Syndication Protocol is still being used and whether it is still relevant. The discussion was in part triggered by the migration of the OpenSearch Syndication Protocol from its previous home of opensearch.org to a personal GitHub repository. OpenSearch is now a registered trademark of Amazon Web Services and [refers](https://opensearch.org) to a community-driven, open source search and analytics suite derived from Apache 2.0 licensed Elasticsearch 7.10.2 and Kibana 7.10.2. To disambiguate between the two OpenSearch initiatives, an [explanatory web page](https://opensearch.org/disambiguation.html) has been created. The sprint participants also observed that, after supporting the OpenSearch Syndication Protocol for a number of years, the protocol was https://blog.mozilla.org/addons/2019/10/15/search-engine-add-ons-to-be-removed-from-addons-mozilla-org/[no longer supported] in add-ons of the Mozilla Firefox web browser.
 
-
-=== TBA
-
-TBA
+The OpenSearch Syndication Protocol is referenced by a number of OGC Standards, namely https://portal.ogc.org/files/?artifact_id=56866[OGC® OpenSearch Geo and Time Extensions (OGC 10-032)], http://docs.opengeospatial.org/is/13-026r9/13-026r9.html[OGC OpenSearch Extension for Earth Observation (OGC 13-026r9)], https://docs.opengeospatial.org/is/17-047r1/17-047r1.html[OGC OpenSearch-EO GeoJSON(-LD) Response Encoding Standard (OGC 17-047r1)], and https://docs.ogc.org/is/17-003r2/17-003r2.html[OGC EO Dataset Metadata GeoJSON(-LD) Encoding Standard (17-003r2)]. The OpenSearch Syndication Protocol works by allowing a client application to be configured according to an OpenSearch description document which is an XML document that contains standard substitution variables that can be used to create a template. The protocol is actively used in the Earth Observation community, for example, at the European Space Agency (ESA) and the US National Aeronautics and Space Administration (NASA).
 
 
-=== TBA
+The draft OGC API - Records - Part 1: Core standard currently includes a conformance class for the OpenSearch Syndication Protocol. The sprint participants recommended that the conformance class be removed out of the draft OGC API - Records - Part 1: Core standard and be considered for a future extension. Specifying the conformance class in a separate extension would allow the conformance class to be easily deprecated in the future without affecting the rest of OGC API - Records.
 
-TBA
+=== Coverage Processing in OGC API - Processes
+
+There was a discussion to explore whether a new language could be developed to support the analysis of coverages in implementations of OGC API - Processes. Such a language would address similar needs to those addressed by the Web Coverage Processing Service (WCPS). There was concern that WCPS could be too complex to use, hence the need for a simpler alternative. Having a simpler alternative would allow client applications to specify the language that they are using in a request. The sprint participants noted that currently several products use raster algebra to support analysis and filtering, however, the products do not appear to share a common language for expressing the raster algebra.
+
+The sprint participants expressed an interest in having a consistent syntax for expressions. The new language or syntax for describing coverage analysis would need to be able to access information about the coverage at multiple levels e.g. at coverage level, band level and at pixel level. The expressivity of the language was therefore identified as a key consideration, on a simplicity spectrum, a single link expression would be the easiest to implement but would be limited in its ability to express analysis. In contrast, a procedural language would be more expressive and allow the description of more complex analysis.
 
 
-=== TBA
+=== Supporting ISO 19115-1:2014 and ISO 19115:2003 in OGC API - Records
 
-TBA
+There are also several organizations that have established infrastructure that relies on ISO 19115-1:2014, https://www.iso.org/standard/26020.html[ISO 19115:2003] and their profiles. Examples of profiles of ISO 19115-1:2014 include https://gwg.nga.mil/documents/NMF_v1_final.doc[NSG Metadata Foundation (NMF)] and https://portal.dgiwg.org/files/67565[DGIWG Metadata Foundation (DMF)]. Examples of profiles of ISO 19115:2003 include the https://inspire.ec.europa.eu/documents/inspire-metadata-implementing-rules-technical-guidelines-based-en-iso-19115-and-en-iso-1[INSPIRE Metadata Implementing Rules] and https://www.anzlic.gov.au/sites/default/files/files/anzlic_metadata_profile_v1_1.pdf[ANZLIC Metadata Profile]. The sprint participants noted that one of the challenges of the OGC API - Records SWG will be to design the API in such a way that allows for the publication of metadata encoded according to ISO 19115-1 or its profiles.
 
-=== TBA
+The sprint participants confirmed that OGC API - Records can return records representing metadata fields from ISO 19115-1:2014, which are encoded according to the schemas specified in https://www.iso.org/standard/32579.html[ISO/TS 19115-3:2016]. Similarly,  OGC API - Records can return records representing metadata fields from ISO 19115:2003, which are encoded according to the schemas specified in https://www.iso.org/standard/32557.html[ISO/TS 19139:2007]. This is achieved through Content Negotiation. For example, the following GET request retrieves a JSON encoded metadata record from a pycsw instance deployed for the EO Exploitation Platform Common Architecture (EOEPCA). The response is as shown in <<annex_jsonexample>>.
 
-TBA
+https://resource-catalogue.demo.eoepca.org/collections/metadata:main/items/S2A_MSIL1C_20200930T092031_N0209_R093_T34SDF_20200930T105731.SAFE?f=json
+
+The same metadata record can be retrieved encoded in XML conforming to ISO 19115-3 through the request below. The response is as shown in <<annex_iso19115example>>.
+
+https://resource-catalogue.demo.eoepca.org/collections/metadata:main/items/S2A_MSIL1C_20200930T092031_N0209_R093_T34SDF_20200930T105731.SAFE?f=xml
+
+The examples above highlight that one of the reasons why the Records API has a Record model is to allow an implementation of OGC API - Records to query across any metadata standard that can be mapped to the Record model. If a data publisher has a catalogue that is based on ISO 19115-3, then all they need to do is to map their schema to the model in OGC API - Records. Another option is to make a mapping between ISO to the Record model in OGC API - Records. An example of such a mapping was developed during the code sprint and is available on the sprint's https://github.com/opengeospatial/ogcapi-code-sprint-2021-07/blob/main/mappings/ISO19115-3_Mappings.md[GitHub repository] and is also presented in <<annex_mappings>>. As the example listings shown above indicate, there is a need to specify which XML profile to retrieve the metadata in. This is something that could be proposed as a new conformance class in a new OGC API - Records extension or profile standard. The Content Negotiation mechanism would be designed to allow the use of the `profile` mechanism in media types or a `schema` query parameter to identify the schema to use.
 
 === Lessons Learnt
 
 Towards the end of the sprint, participants held a discussion on the lessons learnt from the initiative. A summary of the lessons identified by the sprint participants is presented below:
 
 * RecordsAPI: The relationship with STAC was clarified in this sprint. The direction of the RecordsAPI is aligning more with STAC.
-* RecordsAPI: Crosswalk aligned ISO19115-3 with the OGC Record.
+* RecordsAPI: Crosswalk aligned ISO 19115-3 with the OGC Record.
 * There may be a little bit of work to do in aligning satellite imagery support between RecordsAPI and STAC.
-* Clarity on what it means to have an ISO 19115 extension. The pycsw/pygeoapi? demo showed how.
+* Clarity on what it means to have an ISO 19115 conformance class in OGC API - Records.
 * The change with OpenSearch.org introduces challenges in terms of usage/licence. Will mean change requests for existing OGC OpenSearch standards.
 * OpenSearch is still an active thing in OGC. It will be placed in an extension of OGC API - Records and not the Core.
 * OGC Member Meeting in September 2021 (Metadata Adhoc) will have a session on tackling metadata issues. It's linked to the Singapore Geo Festival.

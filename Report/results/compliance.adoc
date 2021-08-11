@@ -1,0 +1,5 @@
+=== Compliance Testing
+
+The OGC Compliance Program provides a free online testing facility, called the OGC Validator, that is based on TEAM Engine. The Compliance Program also provides a set of test suites dedicated to specific protocols and versions, as well as specification profiles and extension. For this code sprint, an https://maven.apache.org[Apache Maven] project was set up by OGC staff in a  https://github.com/opengeospatial/ets-ogcapi-coverages10[GitHub repository] for the Executable Test Suite (ETS) of OGC API – Coverages draft standard. Initial tests implemented during the code sprint included those for the landing page and conformance declaration.
+
+Developers from 52°North implemented additional tests for the ETS of OGC API - Processes. The development work built on top of the work that is being done for Testbed-17. The sprint participants discussed the definition of a process, called 'Echo', that would aid the execution of tests on different products that implement OGC API - Processes.

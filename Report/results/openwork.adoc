@@ -1,8 +1,8 @@
 === Mappings between ISO 19115-3 and OGC API - Records Queryables
 
-Developers from OpenWork took part in the code sprint, with focus on metadata and OpenSearch Syndication. The work on metadata involved designing mappings between the 'queryables' model implemented by OGC API - Records and ISO 19115-3, the XML Schema of ISO 19115-1 the international geospatial metadata standard. The mappings have been archived on the sprint's https://github.com/opengeospatial/ogcapi-code-sprint-2021-07/blob/main/mappings/ISO19115-3_Mappings.md[GitHub repository].
+Developers from OpenWork took part in the code sprint, with focus on metadata and OpenSearch Syndication. The work on metadata involved designing mappings between the 'queryables' model implemented by OGC API - Records and ISO 19115-3, the XML Schema of ISO 19115-1 the international geospatial metadata standard. The mappings have been archived on the sprint's https://github.com/opengeospatial/ogcapi-code-sprint-2021-07/blob/main/mappings/ISO19115-3_Mappings.md[GitHub repository] and are presented in <<annex_mappings>>.
 
-=== OpenSearch Syndication Format
+=== OpenSearch Syndication Protocol
 
 Some of the prototyping by developers from OpenWork involved implementation of an OpenSearch description document. The OpenSearch description document is used to describe a search engine so that it can be used by search client applications. Once configured on an OpenSearch client (ideally a web browser), the search engine becomes accessible as illustrated on <<img_openwork1>>.
 

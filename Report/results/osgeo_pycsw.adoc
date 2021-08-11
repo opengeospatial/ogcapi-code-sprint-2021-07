@@ -1,13 +1,19 @@
 === pycsw
 
-During the code sprint, developers from the Open Source Geospatial Foundation (OSGeo) deployed an instance of https://pycsw.org[pycsw], an open source server-side Python implementation of the OGC Catalogue Services for the Web (CSW) standard. The pycsw software product allows for the publishing and discovery of geospatial metadata via numerous APIs (CSW 2.0.2, CSW 3.0.0, OpenSearch Syndication Protocol, and others), providing a standards-based metadata and catalogue component of spatial data infrastructures. The OSGeo developers extended the pycsw code base to include support for OGC API - Records. A screenshot of the landing page of one of the pycsw instances is shown in <<img_pycsw1>>.
+During the code sprint, developers from the Open Source Geospatial Foundation (OSGeo) deployed an instance of https://pycsw.org[pycsw], an open source server-side Python implementation of the OGC Catalogue Services for the Web (CSW) standard. The pycsw software product allows for the publishing and discovery of geospatial metadata via numerous APIs (CSW 2.0.2, CSW 3.0.0, OpenSearch Syndication Protocol, and others), providing a standards-based metadata and catalogue component of spatial data infrastructures. The OSGeo developers extended the pycsw code base to include support for OGC API - Records, as well as STAC. A screenshot of the landing page of one of the pycsw instances is shown in <<img_pycsw1>>.
 
 [#img_pycsw1,reftext='{figure-caption} {counter:figure-num}']
 .The landing page of one of the pycsw instances
 image::images/pycsw1.png[width=600,align="center"]
 
-A screenshot of a series of metadata records from a collection accessed on an instance pycsw is shown in <<img_pycsw2>>.
+A screenshot of a series of metadata records from a collection accessed on an instance of pycsw is shown in <<img_pycsw2>>.
 
 [#img_pycsw2,reftext='{figure-caption} {counter:figure-num}']
-.A series of metadata records from a collection accessed on an instance pycsw
+.A series of metadata records from a collection accessed on an instance of pycsw
 image::images/pycsw2.png[width=600,align="center"]
+
+A screenshot of a single metadata record from an instance of pycsw is shown in <<img_pycsw3>>.
+
+[#img_pycsw3,reftext='{figure-caption} {counter:figure-num}']
+.A single metadata record from an instance of pycsw
+image::images/pycsw3.png[width=600,align="center"]
