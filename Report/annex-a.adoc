@@ -2,7 +2,7 @@
 [[exampleencodings,Appendix A]]
 = Supporting Different Metadata Encodings in OGC API - Records
 
-[[annex_jsonexample]]
+[[annex_jsonexample,Appendix A.1]]
 === Example Support of JSON encoded Metadata in OGC API - Records
 
 The following GET request retrieves a JSON encoded metadata record from a pycsw instance deployed for the EOEPCA.
@@ -185,7 +185,7 @@ The response is as shown below.
 
 ----
 
-[[annex_iso19115example]]
+[[annex_iso19115example,Appendix A.2]]
 === Example Support of ISO 19115-3 encoded Metadata in OGC API - Records
 
 The same metadata record can be retrieved encoded in XML conforming to ISO 19115-3 through the request below:

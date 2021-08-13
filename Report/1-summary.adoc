@@ -41,6 +41,7 @@ All questions regarding this document should be directed to the editor or the co
 |Gobe Hobona | OGC | Editor
 |Joana Simoes | OGC | Editor
 |	Adrian	 Akbari	 | 	adrianakbari	 | 	Contributor
+| Adrian Cochrane  | 	OpenWork Ltd	 | 	Contributor
 |	Amy	 Youmans	 | 	AGC	 | 	Contributor
 |	Andrea	 Aime	 | 	GeoSolutions	 | 	Contributor
 |	Angelos	 Tzotsos	 | 	Open Source Geospatial Foundation	 | 	Contributor
