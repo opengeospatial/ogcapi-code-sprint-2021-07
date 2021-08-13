@@ -1,6 +1,6 @@
 === GeoServer
 
-GeoSolutions deployed an instance of the GeoServer product. GeoServer is a Java-based software server that allows users to view and edit geospatial data. GeoServer supports multiple OGC API specifications. For this code sprint, the server was configured to offer an endpoint supporting multiple conformance classes and recommendations from the draft OGC API - Coverages - Part 1: Core specification. The development focused on updating the OGC API - Coverages implementation to the latest evolution of the spec, building on GeoServer's existing support for the Web Coverage Service (WCS) standard.
+GeoSolutions deployed an instance of the GeoServer product. GeoServer is a Java-based software server that allows users to view and edit geospatial data. GeoServer supports multiple OGC API specifications. For this code sprint, the server was configured to offer an endpoint supporting multiple conformance classes and recommendations from the draft OGC API - Coverages - Part 1: Core specification. The development focused on updating GeoServer's implementation of the OGC API - Coverages specification to the latest draft version of the specification, building on GeoServer's existing support for the Web Coverage Service (WCS) standard.
 
 [#img_geoserver1,reftext='{figure-caption} {counter:figure-num}']
 .The landing page of the OGC API - Coverages implementation of GeoServer

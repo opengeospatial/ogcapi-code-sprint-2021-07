@@ -1,6 +1,6 @@
 === pygeoapi
 
-A number of sprint participants deployed instances of https://pygeoapi.io[pygeoapi] and worked collaboratively to enhance the software's support for various OGC APIs. Participants working on pygeoapi included developers from OSGeo, Meteorological Service of Canada (MSC), 52 North, GeoCat BV and Geobeyond Srl. pygeoapi is an open source Python server implementation of the OGC API suite of standards.  The product supports the microservices approach and allows for scalability and cloud friendly deployment.
+A number of sprint participants deployed instances of https://pygeoapi.io[pygeoapi] and worked collaboratively to enhance the software's support for various OGC APIs. Participants working on pygeoapi included developers from OSGeo, MSC, 52°North, GeoCat BV and Geobeyond Srl. The pygeoapi software product is an open source Python server implementation of the OGC API suite of standards.  The product supports the microservices approach and allows for scalability and cloud friendly deployment.
 
 ==== Accessing metadata records
 
@@ -19,7 +19,7 @@ image::images/pygeoapi2.png[width=600,align="center"]
 
 ==== Accessing processes
 
-Developers from MSC, OSGeo, GeoCat BV and Geobeyond Srl configured an instance of pygeoapi to enable access to processes through an interface conforming to OGC API - Processes. A screenshot of a rendering of the API definition of one of the processes is shown in <<img_pygeoapi_process>>. pygeoapi was updated to support the latest changes in the OGC API - Processes specification.
+Developers from MSC, OSGeo, GeoCat BV and Geobeyond Srl configured an instance of pygeoapi to enable access to processes through an interface conforming to OGC API - Processes. A screenshot of a rendering of the API definition of one of the processes is shown in <<img_pygeoapi_process>>. The pygeoapi code base  was updated to support the latest changes in the OGC API - Processes specification.
 
 [#img_pygeoapi_process,reftext='{figure-caption} {counter:figure-num}']
 .A screenshot of a rendering of the API definition of one of the processes
@@ -33,7 +33,7 @@ Developers from 52°North configured an instance of pygeoapi to enable access to
 .Screenshot of pygeoapi interface from the 52°North Data Cube demonstration
 image::images/52northDataCube1.png[width=600,align="center"]
 
-Once coverages from the data cube are published through the pygeoapi, they can be accessed through the OGC API - Coverages interface and displayed on a client application such as QGIS. A coverage displayed using QGIS after download from a data cube is shown in <<img_52northDataCube2>>.
+Once coverages from the Data Cube are published through the pygeoapi, they can be accessed through the OGC API - Coverages interface and displayed on a client application such as QGIS. A coverage displayed using QGIS after download from the Data Cube is shown in <<img_52northDataCube2>>.
 
 [#img_52northDataCube2,reftext='{figure-caption} {counter:figure-num}']
 .Coverage displayed using QGIS after download from the 52°North Data Cube supplied using pygeoapi

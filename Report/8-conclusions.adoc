@@ -6,24 +6,26 @@ The code sprint successfully met all of its objectives and achieved its goal of 
 
 === Future work
 
-The following general recommendations for future work items were made during the sprint.
+The following general recommendations for future work items were made during the code sprint.
 
-==== Ideas for the Innovation Program
+==== Ideas for the OGC Innovation Program
 
 Future work in Innovation Program could include:
 
 * Development of Developer Guides (e.g. Spring, Python, Node.js etc), including around toolchains
 * Some experimentation on Workflows (OGC API - Processes - Part 3), covering chaining
-* The filtering and coverage processing. Filtering at the metadata level and at the coverage cell value level
+* Design and experimentation with filtering and coverage processing. Filtering at the metadata level and at the coverage cell value level
 * GeoDataClass (aka StylableLayerSet) concept in relation to discovering Processes & Data that can be used together, including in the context of Workflows
-* Some along the workflow of a search process (e.g. ISO 19115, STAC, etc).
+* Experimentation around the workflow of a search process (e.g. ISO 19115, STAC, etc).
+* Data Centric Security (DCS) support on OGC API – Records publishing metadata conforming to ISO 19115 profiles such as NMF and DMF
 
 
-==== Ideas for the Standards Program
+==== Ideas for the OGC Standards Program
 
 Future work in the Standards Program could include:
 
-* ETS of OGC API - Coverages, Records
-* Merge the work done on the openapi schema for the Coverages API
-* Transactions on OGC API - Processes (Part 2)
+* ETS of OGC API - Coverages
+* ETS of OGC API - Records
+* Merge the work done on the OpenAPI definition and JSON Schema for the Coverages API
+* OGC API - Processes - Part 2: Transactions
 * OGC API - Processes - Part 3: Workflows & Chaining

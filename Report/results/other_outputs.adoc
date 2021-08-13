@@ -5,4 +5,4 @@ Other developments and software deployments during the code sprint are described
 
 ==== Documentation
 
-* A https://github.com/opengeospatial/ogcapi-code-sprint-2021-07/tree/main/Draft_Spring_Guide_for_OGC_API_Proceses[draft user guide] was developed for software developers that use the https://spring.io/projects/spring-framework[Spring Framework] to build implementation of OGC API - Processes. The Spring Framework is an open source application framework and inversion of control container for the Java Platform. The user guide developed during the code sprint made use of Spring along with OpenAPI Tools Generator.
+* A https://github.com/opengeospatial/ogcapi-code-sprint-2021-07/tree/main/Draft_Spring_Guide_for_OGC_API_Proceses[draft user guide] was developed for software developers that use the https://spring.io/projects/spring-framework[Spring Framework] to build implementations of OGC API - Processes. The Spring Framework is an open source application framework and inversion-of-control container for the Java Platform. The user guide developed during the code sprint made use of Spring along with OpenAPI Tools Generator.

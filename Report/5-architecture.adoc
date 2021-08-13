@@ -3,7 +3,7 @@
 
 === High Level Overview
 
-The focus of the sprint was on support of the development of the draft https://ogcapi.ogc.org/records[OGC API - Records], https://ogcapi.ogc.org/processes[OGC API - Processes] and https://ogcapi.ogc.org/coverages[OGC API - Coverages] standards. Implementations of these draft standards were deployed in participants' own infrastructure in order to build a solution with the architecture shown below in <<img_architecture>>.
+The code sprint was executed in support of the development of the draft https://ogcapi.ogc.org/records[OGC API - Records], https://ogcapi.ogc.org/processes[OGC API - Processes] and https://ogcapi.ogc.org/coverages[OGC API - Coverages] standards. Implementations of these draft standards were deployed in participants' own infrastructure in order to build a solution with the architecture shown below in <<img_architecture>>.
 
 [#img_architecture,reftext='{figure-caption} {counter:figure-num}']
 .High level overview of the architecture implemented during the sprint
